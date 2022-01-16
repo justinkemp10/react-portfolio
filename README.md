@@ -23,7 +23,7 @@ AS AN employer looking for candidates with experience building single-page appli
 
 ## Links
 
-Here is a link to the deployed Heroku app: [React Portfolio](https://tech-blog-app321.herokuapp.com/)
+Here is a link to the deployed app: [React Portfolio](https://justinkemp10.github.io/react-portfolio/)
 
 Here is a link to the application repository: [React Portfolio GitHub Repo](https://github.com/justinkemp10/react-portfolio)
 

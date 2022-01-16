@@ -30,3 +30,7 @@ Here is a link to the application repository: [React Portfolio GitHub Repo](http
 ## Author
 
 [Justin Kemp](https://github.com/justinkemp10)
+
+## Current Status
+
+Getting a `` TypeError: MiniCssExtractPlugin is not a constructor `` error on `` npm run build ``. App currently runs locally after `` npm start ``.

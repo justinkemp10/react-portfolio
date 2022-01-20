@@ -16,8 +16,8 @@ function Contact() {
 
   return (
     <section id="contact">
-      <div className="contact-container">
-        <form name="contact" className="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+      <div className="contact-container ">
+        <form name="contact" className="contact-form">
           <h2 className="form-header">Reach out with a message!</h2>
           <div className="form-group">
             <label htmlFor="name" className="form-label">
@@ -48,13 +48,15 @@ function Contact() {
             >
               Message
             </label>
-            <textarea
-              id="message"
-              name="message"
-              className="form-input"
-            />
+              <textarea
+                id="message"
+                name="message"
+                className="form-input"
+                placeholder="Write something here..."
+                height='00px'
+              />
           </div>
-          <button type="submit" className="btn contact-btn">
+          <button type="submit" className="btn btn-primary contact-btn">
             Submit
           </button>
         </form>

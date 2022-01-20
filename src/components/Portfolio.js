@@ -14,6 +14,7 @@ function Portfolio() {
             href={project.link}
             key={project.image}
             className="project-link"
+            target='_blank'
           >
             <div className="project-header">
               <img
@@ -24,6 +25,15 @@ function Portfolio() {
               <h1 className="project-title">
                 {project.title}
               </h1>
+              <div className="github-link-container">
+              <a
+                href={project.gitLink}
+                className="github-link"
+                target='_blank'
+              >
+                GitHub Repo
+              </a>
+              </div>
             </div>
           </a>
         ))}

@@ -9,27 +9,31 @@ export const projects = [
       description:
         "Search for the weather forecast in your area.",
       image: weatherImage,
-      link: "https://github.com/justinkemp10/weather-dashboard",
+      link: "https://justinkemp10.github.io/weather-dashboard",
+      gitLink: "https://github.com/justinkemp10/weather-dashboard",
     },
     {
       title: "Workday Scheduler",
       description:
         "Schedule your day in a planner",
       image: workdayImage,
-      link: "https://github.com/justinkemp10/Workday-Scheduler",
+      link: "https://justinkemp10.github.io/Workday-Scheduler",
+      gitLink: "https://github.com/justinkemp10/Workday-Scheduler",
     },
     {
       title: "Password Generator",
       description:
         "Pick the parameters and randomly generate a secure password.",
       image: passwordImage,
-      link: "https://github.com/justinkemp10/Password-Generator",
+      link: 'https://justinkemp10.github.io/Password-Generator',
+      gitLink: "https://github.com/justinkemp10/Password-Generator",
     },
     {
       title: "Coding Quiz",
       description:
         "Take a timed coding quiz that is build using Javascript!",
       image: quizImage,
-      link: "https://github.com/justinkemp10/Quiz-Application",
+      link: "https://justinkemp10.github.io/Quiz-Application",
+      gitLink: "https://github.com/justinkemp10/Quiz-Application",
     },
   ];

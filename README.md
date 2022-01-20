@@ -19,7 +19,17 @@ AS AN employer looking for candidates with experience building single-page appli
 9. WHEN I move my cursor out of one of the form fields without entering text,, THEN I receive a notification that this field is required.
 10. WHEN I enter text into the email address field, THEN I receive a notification if I have entered an invalid email address.
 11. WHEN I am presented with the Resume section, THEN I see a link to a downloadable resume and a list of the developer’s proficiencies.
-12. WHEN I view the footer, THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
+12. WHEN I view the footer, THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).   
+
+
+## Screenshots
+
+| Mobile Display |
+| :------: |
+| ![Screenshot-mobile-1](public/mobile_screenshot.png) |
+| ![Screenshot-mobile-1](public/about_screenshot.png) |
+| ![Screenshot-mobile-1](public/portfolio_screenshot.png) |
+| ![Screenshot-mobile-1](public/contact_screenshot.png) |
 
 ## Links
 
@@ -33,4 +43,4 @@ Here is a link to the application repository: [React Portfolio GitHub Repo](http
 
 ## Current Status
 
-Getting a `` TypeError: MiniCssExtractPlugin is not a constructor `` error on `` npm run build ``. App currently runs locally after `` npm start ``.
+Build succeeded and the portfolio is live on the GitPages link!

@@ -1,8 +1,12 @@
 import React from 'react';
+import aboutImage from '../../src/avatar2.jpg';
 
 function About() {
     return (
         <section id='about'>
+            <div className='about-image-container'>
+              <img alt="about image" className='about-image' src={aboutImage}></img>
+            </div>
             <div className='about-container'>
                 <h1 className='about-header'>
                     Hi, my name is Justin and I'm a web developer.

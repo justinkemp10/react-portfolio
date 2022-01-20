@@ -15,9 +15,9 @@ function Contact() {
 //   }
 
   return (
-    <section>
+    <section id="contact">
       <div className="contact-container">
-        <form name="contact" className="contact-form">
+        <form name="contact" className="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <h2 className="form-header">Reach out with a message!</h2>
           <div className="form-group">
             <label htmlFor="name" className="form-label">
@@ -54,7 +54,7 @@ function Contact() {
               className="form-input"
             />
           </div>
-          <button type="submit" className="btn btn-danger contact-btn">
+          <button type="submit" className="btn contact-btn">
             Submit
           </button>
         </form>

@@ -2,8 +2,28 @@ import weatherImage from '../src/weather-dashboard.png';
 import workdayImage from '../src/workday-scheduler.png';
 import passwordImage from '../src/password-generator.png';
 import quizImage from '../src/coding-quiz.png';
+import sweptImage from '../src/swept_screenshot1.jpg';
+import custImage from '../src/ticketstack_screenshot.jpg';
 
 export const projects = [
+    {
+      title: "SWEPT",
+      description:
+        "Search for the weather forecast in your area.",
+      image: sweptImage,
+      link: "https://justinkemp10.github.io/weather-dashboard",
+      gitLink: "https://github.com/justinkemp10/weather-dashboard",
+
+    },
+    {
+      title: "Customer Service",
+      description:
+        "Search for the weather forecast in your area.",
+      image: custImage,
+      link: "https://justinkemp10.github.io/weather-dashboard",
+      gitLink: "https://github.com/justinkemp10/weather-dashboard",
+
+    },
     {
       title: "Weather Dashboard",
       description:

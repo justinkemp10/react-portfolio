@@ -36,14 +36,18 @@ section {
 }
 
 #about {
-  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
   border-top: 2px solid white;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
+  justify-content: center;
 }
 
 .about-image-container {
+  display: flex;
+  justify-content: center;
   padding-bottom: 2rem;
-  padding-left: 5rem;
   padding-top: 3rem;
 }
 .about-image {
@@ -54,8 +58,9 @@ section {
 }
 
 .about-container {
-  padding-left: 1rem;
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .about-header {
@@ -69,8 +74,7 @@ section {
 .about-links {
   display: flex;
   flex-direction: column;
-  padding-left: 1rem;
-
+  text-align: center;
 }
 
 .contact-link {
@@ -105,6 +109,7 @@ section {
 .project-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .project-title {
@@ -135,6 +140,7 @@ section {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  border-bottom: 2px solid white;
 }
 .form-header {
   padding-bottom: 2rem;
@@ -145,6 +151,7 @@ section {
   display: flex;
   justify-content: center;
   padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .form-input {
@@ -186,9 +193,41 @@ section {
 .footer-container {
   padding-top: 5rem;
   padding-bottom: 3rem;
+  background-color: rgb(14, 14, 56);
+  border-top: 3px solid goldenrod;
 }
 .footer-div {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly
+}
+.project-image:hover {
+  box-shadow: 10 10 0 0 honeydew;
+}
+
+@media (max-width: 768px) {
+  main {
+    text-align: center;
+  }
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav-item {
+    margin: 00.7rem 0;
+  }
+  .project-container {
+    flex-direction: column;
+  }
+  .about-header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .about-description {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
